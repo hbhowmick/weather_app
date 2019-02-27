@@ -21,7 +21,7 @@ function searchCity() {
   // log the city in id "city_search"
   let city = $('#city_search').val();
 
-  let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=${config.getKey()}`;
+  let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=${config.getKey()}`;
 
   $.get(url, function(res) {
     console.log(res);
@@ -31,7 +31,7 @@ function searchCity() {
     $('#low').html(`${convert(res.main.temp_min)}&deg;`);
     $('#forecast').text(`${res.weather[0].description}`);
     $('#humidity').text(`${res.main.humidity}%`);
-    
+
     $('#weather-info').css('display', 'block');
   });
 }

@@ -26,3 +26,42 @@ form>input[type="submit"] {
   font-size: 22px;
   padding: 25px;
 }
+
+table {
+  width: 100%;
+}
+
+tr {
+  width: 100%;
+  border-top-style: solid;
+  border-top-color: lightgrey;
+  border-width: thin;
+}
+
+th {
+  font-weight: bold;
+  text-align: left;
+  padding: 10px;
+}
+
+td {
+  text-align: left;
+  vertical-align: top;
+  padding: 10px;
+}
+
+#id {
+  font-weight: bold;
+}
+
+span {
+  font-weight: bold;
+  }
+
+#red {
+  color: red;
+}
+
+#green {
+  color: green;
+}

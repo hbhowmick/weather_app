@@ -1,7 +1,7 @@
 // render the navbar into the header
-$.get('../../components/header.html', function(res) {
-  $('header').html(res);
-});
+// $.get('../../components/header.html', function(res) {
+//   $('header').html(res);
+// });
 
 // create a function that returns name, species, and food preferences of each animal
 function getInfo(res) {

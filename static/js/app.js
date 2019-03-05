@@ -7,9 +7,9 @@ let config = new Config();
 
 
 // render the navbar into the header
-$.get('../../components/header.html', function(res) {
-  $('header').html(res);
-});
+// $.get('../../components/header.html', function(res) {
+//   $('header').html(res);
+// });
 
 function convert(num) {
   let deg = (num -273.15) * (9/5) + 32;
